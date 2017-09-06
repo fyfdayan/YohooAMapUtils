@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YohooAMapUtils_Example' do
+  pod 'YohooAMapUtils', :path => '../'
+
+  target 'YohooAMapUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
