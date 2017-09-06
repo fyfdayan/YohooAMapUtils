@@ -1,5 +1,9 @@
 use_frameworks!
 
+pre_install do |installer|
+    def installer.verify_no_static_framework_transitive_dependencies; end
+end
+
 target 'YohooAMapUtils_Example' do
   pod 'YohooAMapUtils', :path => '../'
 

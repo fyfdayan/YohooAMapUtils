@@ -36,7 +36,11 @@ TODO: Add long description of the pod here.
   #   'YohooAMapUtils' => ['YohooAMapUtils/Assets/*.png']
   # }
 
+    s.libraries = 'c++', 'z', 'stdc++.6.0.9'
+    s.frameworks = 'Security', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'AMapSearch'
+    s.dependency 'AMapLocation'
 end

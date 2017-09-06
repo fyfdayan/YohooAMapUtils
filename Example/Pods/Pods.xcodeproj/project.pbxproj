@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01659344B8F341BE4CD715D9FCFB768F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C128C37ED4D6496B35E8C4F31BA258D2 /* Foundation.framework */; };
+		067DF60CBA6E4615059D1342C6CEEEBD /* YohooAMapUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2370ADD4210076B2A4314B4BFF0F9DB9 /* YohooAMapUtils-dummy.m */; };
+		14A76BB5F2E61BB39AFA2A25E7C825D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA32B0ADF7CF69E75B5A70AA98E9ED56 /* CoreLocation.framework */; };
+		389DCF1B596483D9C04B7A8F1117C443 /* Pods-YohooAMapUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B51EB8C26EBEB2B9F16252614F737C /* Pods-YohooAMapUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B745192082FB34DA730B683C72AD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C128C37ED4D6496B35E8C4F31BA258D2 /* Foundation.framework */; };
+		523F0BB71F5FEC5300A3C3AA /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05327DDA2649136E0847C6E807D1B3F /* AMapFoundationKit.framework */; };
+		523F0BB81F5FEC5800A3C3AA /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862F456ACFD14F27F053F33744D1E04E /* AMapLocationKit.framework */; };
+		523F0BB91F5FEC5C00A3C3AA /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E55DCE93E8EE14774EEB7C449B6E3A /* AMapSearchKit.framework */; };
+		64F915D4D8677FFC18E68A6F1F95CAE5 /* YohooAMapUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 22557B755E63BDBB6A0FE67C0AFA4A58 /* YohooAMapUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75284DE948E6E63FBEE24B4A7A94E815 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E88C0A616B8737B5554EB267E8E7F4 /* SystemConfiguration.framework */; };
+		7EDBE539E2B90CEEDB8852BE2E1E402F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C128C37ED4D6496B35E8C4F31BA258D2 /* Foundation.framework */; };
+		922B7253494606549BA87AEC0DED62D6 /* Pods-YohooAMapUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53468DAB70E8CEC07E916988FA0D41E2 /* Pods-YohooAMapUtils_Tests-dummy.m */; };
+		9BDBF13F2EACBE6ACDBE7EA6803E18D7 /* YohooAMapUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A298BB4DF6EB849FB392E76FCEF432 /* YohooAMapUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86B39F27BC268ADB48B94B58C65067E /* YohooAMapUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83757CBDB230ECBCA2A07B38CDD6818E /* YohooAMapUtils.m */; };
+		BDD225A821A7FB7E3E993CB0B92FBAD5 /* Pods-YohooAMapUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CF9C0C8C08F1D4FC5CACAAEBAECA4E /* Pods-YohooAMapUtils_Example-dummy.m */; };
+		CF849DE7D2654BDFE9C99E7993C0F25B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA56D020FA4442505A39A0117CA14D96 /* Security.framework */; };
+		D492A22B065CC55489CF1792224157F1 /* YohooPoi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C448E7646B92389BEB90AD304DC791F /* YohooPoi.m */; };
+		E2B49837F585DF7B924A45D5DBF144AE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D3CF17F29BF6BEE8DE8CC6156F06D7 /* CoreTelephony.framework */; };
+		E7E0A2F960291620D4F893DA199BA09F /* YohooPoi.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F61DC3B332B53013A1FAA10E91CF6C /* YohooPoi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC684191FC810F62809886415EE66CB5 /* Pods-YohooAMapUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF16A118C07A59C03E05E57C9E35F173 /* Pods-YohooAMapUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30C41419D2D7BB096D77CB947234B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EAF474A0427FD4A7C63F14A6B7F8923;
+			remoteInfo = YohooAMapUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00476B9FB98371D0C568874305B15631 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		02D3CF17F29BF6BEE8DE8CC6156F06D7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		047D73C313CC75063858E586BF7BDBE7 /* Pods-YohooAMapUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YohooAMapUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		16CEA914C54C53F7F079CFE74B3F574F /* Pods-YohooAMapUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YohooAMapUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BD8A73E404FB6FE1CE2B24FBF8BD3B1 /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
+		1C9B14EA39FE5F9EB82BD5B99BD5E5AE /* Pods-YohooAMapUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YohooAMapUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		1DC2DA4B22E44331D2E9F5D9F2B7DD86 /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceRegionObj.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
+		1F581529B6042C947E7493835E9CC92A /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		20E88C0A616B8737B5554EB267E8E7F4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		22054A94AC8C16655D959E2DDAB81827 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
+		22557B755E63BDBB6A0FE67C0AFA4A58 /* YohooAMapUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YohooAMapUtils.h; sourceTree = "<group>"; };
+		2370ADD4210076B2A4314B4BFF0F9DB9 /* YohooAMapUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YohooAMapUtils-dummy.m"; sourceTree = "<group>"; };
+		28F61DC3B332B53013A1FAA10E91CF6C /* YohooPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YohooPoi.h; sourceTree = "<group>"; };
+		2C448E7646B92389BEB90AD304DC791F /* YohooPoi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YohooPoi.m; sourceTree = "<group>"; };
+		302F023D04D96FDA76E247D792BD16CA /* Pods-YohooAMapUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YohooAMapUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1B4AA1E869C5F1E986900C6CD2A59D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F868926E706B33CA08380DA4109640 /* AMapLocationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationKit.h; path = AMapLocationKit.framework/Headers/AMapLocationKit.h; sourceTree = "<group>"; };
+		425C702D95F69D743EB2DB3689305B1D /* Pods-YohooAMapUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YohooAMapUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C0C808E00FB50899F41E71AA3A306D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDD3AFA48798986FFB611E774CF1B59 /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
+		50A019015AD71D0DE86D071C40BC0E33 /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		52A9580AA6085A3391874D44E81F2378 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationRegionObj.h; path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h; sourceTree = "<group>"; };
+		53468DAB70E8CEC07E916988FA0D41E2 /* Pods-YohooAMapUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YohooAMapUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		54F0E50B5F6FE6DED0D7EA1727E8497F /* Pods_YohooAMapUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YohooAMapUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591FD88BE88E979DF80D79F2312D0055 /* AMapGeoFenceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceError.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceError.h; sourceTree = "<group>"; };
+		596D2E7DD8ADE237F4CE69EE0F486649 /* Pods-YohooAMapUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YohooAMapUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		636B11CE036EA42E8A4264C135359EF0 /* Pods-YohooAMapUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YohooAMapUtils_Example.modulemap"; sourceTree = "<group>"; };
+		6756AB9DB5597DF652483FD4D52E808E /* Pods-YohooAMapUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YohooAMapUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
+		682DB50EFC50BE248E272C2CF65255D8 /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
+		689DBB84CC9FF7611EB85A31B5616D9B /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
+		68D710675E104CE1D78C356218F6A5D8 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
+		68D7F17067246171931C0304059F3A76 /* YohooAMapUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YohooAMapUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC9E7DC77418DB45FEE61AC5625F313 /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
+		6BA7260A132A019EC9FCBC36A2B79325 /* Pods-YohooAMapUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YohooAMapUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6FDE5D7581FAFE9FEDDD20B946FC7176 /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
+		7671E832B99C98A464F8344567A1FC37 /* Pods-YohooAMapUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YohooAMapUtils_Example-resources.sh"; sourceTree = "<group>"; };
+		7B109A0B63C5620CF02D4E719B40AB73 /* AMapLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationVersion.h; path = AMapLocationKit.framework/Headers/AMapLocationVersion.h; sourceTree = "<group>"; };
+		83757CBDB230ECBCA2A07B38CDD6818E /* YohooAMapUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YohooAMapUtils.m; sourceTree = "<group>"; };
+		83E232026D282319A5E298AB69BADC49 /* YohooAMapUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YohooAMapUtils.modulemap; sourceTree = "<group>"; };
+		84A298BB4DF6EB849FB392E76FCEF432 /* YohooAMapUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YohooAMapUtils-umbrella.h"; sourceTree = "<group>"; };
+		862F456ACFD14F27F053F33744D1E04E /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		88E55DCE93E8EE14774EEB7C449B6E3A /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		891FDB0A7F178BA586034D8727DA4984 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
+		8DBD8DE2B6CADE8DDBA0BE65454AC779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B51EB8C26EBEB2B9F16252614F737C /* Pods-YohooAMapUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YohooAMapUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		924674E971E0AB812B09B6075A959560 /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationCommonObj.h; path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05327DDA2649136E0847C6E807D1B3F /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		AA32B0ADF7CF69E75B5A70AA98E9ED56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		ABC6E374580533D4D01E071A2539DA9B /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
+		B0F5F43543C97AAD8A9FCA67E3D2F385 /* Pods-YohooAMapUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YohooAMapUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4586253D2481400EDD2D87CC904E371 /* Pods_YohooAMapUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YohooAMapUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3A148C3DDA519ED0699980904AE4DB /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
+		C128C37ED4D6496B35E8C4F31BA258D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C76668E30155D9797A7AF67FB9332C36 /* Pods-YohooAMapUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YohooAMapUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C96A09E48A5FEEBBC59E94DF8A27FE01 /* Pods-YohooAMapUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YohooAMapUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		CA56D020FA4442505A39A0117CA14D96 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CC0C4EB7AE4B826D59D723303F8A3BB8 /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
+		CCAFB9CD250B016737B995E44284FF8E /* Pods-YohooAMapUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YohooAMapUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF689D2C6CD18B5AC1F5C992DD89FF36 /* YohooAMapUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YohooAMapUtils.xcconfig; sourceTree = "<group>"; };
+		D792C6B7A88DF456E142B88AB2788108 /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceManager.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h; sourceTree = "<group>"; };
+		D7FA7F0D5FC8B9BC2389A32AB5B312F5 /* YohooAMapUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YohooAMapUtils-prefix.pch"; sourceTree = "<group>"; };
+		E4CF9C0C8C08F1D4FC5CACAAEBAECA4E /* Pods-YohooAMapUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YohooAMapUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		EF16A118C07A59C03E05E57C9E35F173 /* Pods-YohooAMapUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YohooAMapUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F545D532D1190AB7B5C9A5EEEDB38F5D /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F55665F62AEFBF778088ED3E63761F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F0BB91F5FEC5C00A3C3AA /* AMapSearchKit.framework in Frameworks */,
+				523F0BB81F5FEC5800A3C3AA /* AMapLocationKit.framework in Frameworks */,
+				523F0BB71F5FEC5300A3C3AA /* AMapFoundationKit.framework in Frameworks */,
+				14A76BB5F2E61BB39AFA2A25E7C825D9 /* CoreLocation.framework in Frameworks */,
+				E2B49837F585DF7B924A45D5DBF144AE /* CoreTelephony.framework in Frameworks */,
+				7EDBE539E2B90CEEDB8852BE2E1E402F /* Foundation.framework in Frameworks */,
+				CF849DE7D2654BDFE9C99E7993C0F25B /* Security.framework in Frameworks */,
+				75284DE948E6E63FBEE24B4A7A94E815 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3B63B470C56677089A65DBF186AABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B745192082FB34DA730B683C72AD3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5540E3E0B7493774AF3175596778AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01659344B8F341BE4CD715D9FCFB768F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F57736E11D3DF078E712B5E5911DB88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C808E00FB50899F41E71AA3A306D8 /* Info.plist */,
+				83E232026D282319A5E298AB69BADC49 /* YohooAMapUtils.modulemap */,
+				CF689D2C6CD18B5AC1F5C992DD89FF36 /* YohooAMapUtils.xcconfig */,
+				2370ADD4210076B2A4314B4BFF0F9DB9 /* YohooAMapUtils-dummy.m */,
+				D7FA7F0D5FC8B9BC2389A32AB5B312F5 /* YohooAMapUtils-prefix.pch */,
+				84A298BB4DF6EB849FB392E76FCEF432 /* YohooAMapUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YohooAMapUtils";
+			sourceTree = "<group>";
+		};
+		1E5A3D84A090675E5A91F88D22ADDB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F0E50B5F6FE6DED0D7EA1727E8497F /* Pods_YohooAMapUtils_Example.framework */,
+				B4586253D2481400EDD2D87CC904E371 /* Pods_YohooAMapUtils_Tests.framework */,
+				68D7F17067246171931C0304059F3A76 /* YohooAMapUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBE929D38702BD013475D504ECAD336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05327DDA2649136E0847C6E807D1B3F /* AMapFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327E70D74DB891AF891217E6C43B833A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327E70D74DB891AF891217E6C43B833A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA32B0ADF7CF69E75B5A70AA98E9ED56 /* CoreLocation.framework */,
+				02D3CF17F29BF6BEE8DE8CC6156F06D7 /* CoreTelephony.framework */,
+				C128C37ED4D6496B35E8C4F31BA258D2 /* Foundation.framework */,
+				CA56D020FA4442505A39A0117CA14D96 /* Security.framework */,
+				20E88C0A616B8737B5554EB267E8E7F4 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		436E8F9624865A856F8D8E7DB299F08B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				862F456ACFD14F27F053F33744D1E04E /* AMapLocationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EE9CBB5A3D68B6D217FF84629ED5B87 /* AMapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6FDE5D7581FAFE9FEDDD20B946FC7176 /* AMapCommonObj.h */,
+				50A019015AD71D0DE86D071C40BC0E33 /* AMapNearbySearchManager.h */,
+				F545D532D1190AB7B5C9A5EEEDB38F5D /* AMapNearbyUploadInfo.h */,
+				6AC9E7DC77418DB45FEE61AC5625F313 /* AMapSearchAPI.h */,
+				1BD8A73E404FB6FE1CE2B24FBF8BD3B1 /* AMapSearchError.h */,
+				CC0C4EB7AE4B826D59D723303F8A3BB8 /* AMapSearchKit.h */,
+				4CDD3AFA48798986FFB611E774CF1B59 /* AMapSearchObj.h */,
+				68D710675E104CE1D78C356218F6A5D8 /* AMapSearchVersion.h */,
+				519773056CE71EDC6F9617D1171B20C1 /* Frameworks */,
+			);
+			path = AMapSearch;
+			sourceTree = "<group>";
+		};
+		519773056CE71EDC6F9617D1171B20C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E55DCE93E8EE14774EEB7C449B6E3A /* AMapSearchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DB9BFB3E7F5F58567DEE96C93070D22 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				F4E7F661EAAD4B7B480C2C6CB7853AB7 /* Pods */,
+				1E5A3D84A090675E5A91F88D22ADDB31 /* Products */,
+				CDB3421A97AE016C5CDEA6DCFA0382E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB9BFB3E7F5F58567DEE96C93070D22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A49B1EE59FD2AF3EDF629F6013B1E7 /* YohooAMapUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		94192E0B133C6F3F803B96128977A8F7 /* AMapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				591FD88BE88E979DF80D79F2312D0055 /* AMapGeoFenceError.h */,
+				D792C6B7A88DF456E142B88AB2788108 /* AMapGeoFenceManager.h */,
+				1DC2DA4B22E44331D2E9F5D9F2B7DD86 /* AMapGeoFenceRegionObj.h */,
+				924674E971E0AB812B09B6075A959560 /* AMapLocationCommonObj.h */,
+				40F868926E706B33CA08380DA4109640 /* AMapLocationKit.h */,
+				689DBB84CC9FF7611EB85A31B5616D9B /* AMapLocationManager.h */,
+				52A9580AA6085A3391874D44E81F2378 /* AMapLocationRegionObj.h */,
+				7B109A0B63C5620CF02D4E719B40AB73 /* AMapLocationVersion.h */,
+				436E8F9624865A856F8D8E7DB299F08B /* Frameworks */,
+			);
+			path = AMapLocation;
+			sourceTree = "<group>";
+		};
+		9D05821A7CF7734CB103BC884346C049 /* AMapFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				682DB50EFC50BE248E272C2CF65255D8 /* AMapFoundationKit.h */,
+				1F581529B6042C947E7493835E9CC92A /* AMapFoundationVersion.h */,
+				891FDB0A7F178BA586034D8727DA4984 /* AMapServices.h */,
+				ABC6E374580533D4D01E071A2539DA9B /* AMapURLSearch.h */,
+				00476B9FB98371D0C568874305B15631 /* AMapURLSearchConfig.h */,
+				BF3A148C3DDA519ED0699980904AE4DB /* AMapURLSearchType.h */,
+				22054A94AC8C16655D959E2DDAB81827 /* AMapUtility.h */,
+				1EBE929D38702BD013475D504ECAD336 /* Frameworks */,
+			);
+			path = AMapFoundation;
+			sourceTree = "<group>";
+		};
+		A2061D0DF2071FD080172C6166B4D260 /* YohooAMapUtils */ = {
+			isa = PBXGroup;
+			children = (
+				AACE4C3DDACDC01AB7F3AE79A0F96C88 /* Classes */,
+			);
+			path = YohooAMapUtils;
+			sourceTree = "<group>";
+		};
+		A4A49B1EE59FD2AF3EDF629F6013B1E7 /* YohooAMapUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0F57736E11D3DF078E712B5E5911DB88 /* Support Files */,
+				A2061D0DF2071FD080172C6166B4D260 /* YohooAMapUtils */,
+			);
+			name = YohooAMapUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AACE4C3DDACDC01AB7F3AE79A0F96C88 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22557B755E63BDBB6A0FE67C0AFA4A58 /* YohooAMapUtils.h */,
+				83757CBDB230ECBCA2A07B38CDD6818E /* YohooAMapUtils.m */,
+				28F61DC3B332B53013A1FAA10E91CF6C /* YohooPoi.h */,
+				2C448E7646B92389BEB90AD304DC791F /* YohooPoi.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B56C05DD907FC525C36101D86DE9241C /* Pods-YohooAMapUtils_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD8DE2B6CADE8DDBA0BE65454AC779 /* Info.plist */,
+				636B11CE036EA42E8A4264C135359EF0 /* Pods-YohooAMapUtils_Example.modulemap */,
+				C76668E30155D9797A7AF67FB9332C36 /* Pods-YohooAMapUtils_Example-acknowledgements.markdown */,
+				16CEA914C54C53F7F079CFE74B3F574F /* Pods-YohooAMapUtils_Example-acknowledgements.plist */,
+				E4CF9C0C8C08F1D4FC5CACAAEBAECA4E /* Pods-YohooAMapUtils_Example-dummy.m */,
+				6756AB9DB5597DF652483FD4D52E808E /* Pods-YohooAMapUtils_Example-frameworks.sh */,
+				7671E832B99C98A464F8344567A1FC37 /* Pods-YohooAMapUtils_Example-resources.sh */,
+				91B51EB8C26EBEB2B9F16252614F737C /* Pods-YohooAMapUtils_Example-umbrella.h */,
+				302F023D04D96FDA76E247D792BD16CA /* Pods-YohooAMapUtils_Example.debug.xcconfig */,
+				596D2E7DD8ADE237F4CE69EE0F486649 /* Pods-YohooAMapUtils_Example.release.xcconfig */,
+			);
+			name = "Pods-YohooAMapUtils_Example";
+			path = "Target Support Files/Pods-YohooAMapUtils_Example";
+			sourceTree = "<group>";
+		};
+		CDB3421A97AE016C5CDEA6DCFA0382E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56C05DD907FC525C36101D86DE9241C /* Pods-YohooAMapUtils_Example */,
+				F2B264C3AE4972C2942D4F085A2BBD0F /* Pods-YohooAMapUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2B264C3AE4972C2942D4F085A2BBD0F /* Pods-YohooAMapUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B4AA1E869C5F1E986900C6CD2A59D /* Info.plist */,
+				C96A09E48A5FEEBBC59E94DF8A27FE01 /* Pods-YohooAMapUtils_Tests.modulemap */,
+				B0F5F43543C97AAD8A9FCA67E3D2F385 /* Pods-YohooAMapUtils_Tests-acknowledgements.markdown */,
+				425C702D95F69D743EB2DB3689305B1D /* Pods-YohooAMapUtils_Tests-acknowledgements.plist */,
+				53468DAB70E8CEC07E916988FA0D41E2 /* Pods-YohooAMapUtils_Tests-dummy.m */,
+				6BA7260A132A019EC9FCBC36A2B79325 /* Pods-YohooAMapUtils_Tests-frameworks.sh */,
+				1C9B14EA39FE5F9EB82BD5B99BD5E5AE /* Pods-YohooAMapUtils_Tests-resources.sh */,
+				EF16A118C07A59C03E05E57C9E35F173 /* Pods-YohooAMapUtils_Tests-umbrella.h */,
+				CCAFB9CD250B016737B995E44284FF8E /* Pods-YohooAMapUtils_Tests.debug.xcconfig */,
+				047D73C313CC75063858E586BF7BDBE7 /* Pods-YohooAMapUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-YohooAMapUtils_Tests";
+			path = "Target Support Files/Pods-YohooAMapUtils_Tests";
+			sourceTree = "<group>";
+		};
+		F4E7F661EAAD4B7B480C2C6CB7853AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D05821A7CF7734CB103BC884346C049 /* AMapFoundation */,
+				94192E0B133C6F3F803B96128977A8F7 /* AMapLocation */,
+				4EE9CBB5A3D68B6D217FF84629ED5B87 /* AMapSearch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25E1785AD33E6C283C27E5353C901A8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC684191FC810F62809886415EE66CB5 /* Pods-YohooAMapUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B8A70D5C5CB4AFB4692EF3DF2DF6CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389DCF1B596483D9C04B7A8F1117C443 /* Pods-YohooAMapUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB2247012D431495216DE8CD769255E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDBF13F2EACBE6ACDBE7EA6803E18D7 /* YohooAMapUtils-umbrella.h in Headers */,
+				64F915D4D8677FFC18E68A6F1F95CAE5 /* YohooAMapUtils.h in Headers */,
+				E7E0A2F960291620D4F893DA199BA09F /* YohooPoi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5EAF474A0427FD4A7C63F14A6B7F8923 /* YohooAMapUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0AC31D53CFE240D0E54E5D3650EB8B /* Build configuration list for PBXNativeTarget "YohooAMapUtils" */;
+			buildPhases = (
+				6316A2DCDE30B463953287420CF09B5A /* Sources */,
+				12F55665F62AEFBF778088ED3E63761F /* Frameworks */,
+				DBB2247012D431495216DE8CD769255E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YohooAMapUtils;
+			productName = YohooAMapUtils;
+			productReference = 68D7F17067246171931C0304059F3A76 /* YohooAMapUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D090484D1A816F3E9FD11309B48F389 /* Pods-YohooAMapUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5991DCE17164E3E0557230FA49FC4F0 /* Build configuration list for PBXNativeTarget "Pods-YohooAMapUtils_Tests" */;
+			buildPhases = (
+				0842AE91C54D0EB579680207C1454E79 /* Sources */,
+				DF3B63B470C56677089A65DBF186AABD /* Frameworks */,
+				25E1785AD33E6C283C27E5353C901A8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YohooAMapUtils_Tests";
+			productName = "Pods-YohooAMapUtils_Tests";
+			productReference = B4586253D2481400EDD2D87CC904E371 /* Pods_YohooAMapUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC20E8392029DE86C4986EEE905E0A2B /* Pods-YohooAMapUtils_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB95FE492B2C0D2E6A0E05885DF9562 /* Build configuration list for PBXNativeTarget "Pods-YohooAMapUtils_Example" */;
+			buildPhases = (
+				F22D33D7ABB8AA05809F997A9D4B83F0 /* Sources */,
+				F5540E3E0B7493774AF3175596778AE6 /* Frameworks */,
+				53B8A70D5C5CB4AFB4692EF3DF2DF6CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A5DB8397A95FD64B22E7688EF909EA /* PBXTargetDependency */,
+			);
+			name = "Pods-YohooAMapUtils_Example";
+			productName = "Pods-YohooAMapUtils_Example";
+			productReference = 54F0E50B5F6FE6DED0D7EA1727E8497F /* Pods_YohooAMapUtils_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E5A3D84A090675E5A91F88D22ADDB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC20E8392029DE86C4986EEE905E0A2B /* Pods-YohooAMapUtils_Example */,
+				8D090484D1A816F3E9FD11309B48F389 /* Pods-YohooAMapUtils_Tests */,
+				5EAF474A0427FD4A7C63F14A6B7F8923 /* YohooAMapUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0842AE91C54D0EB579680207C1454E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B7253494606549BA87AEC0DED62D6 /* Pods-YohooAMapUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6316A2DCDE30B463953287420CF09B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067DF60CBA6E4615059D1342C6CEEEBD /* YohooAMapUtils-dummy.m in Sources */,
+				B86B39F27BC268ADB48B94B58C65067E /* YohooAMapUtils.m in Sources */,
+				D492A22B065CC55489CF1792224157F1 /* YohooPoi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22D33D7ABB8AA05809F997A9D4B83F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD225A821A7FB7E3E993CB0B92FBAD5 /* Pods-YohooAMapUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A5DB8397A95FD64B22E7688EF909EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YohooAMapUtils;
+			target = 5EAF474A0427FD4A7C63F14A6B7F8923 /* YohooAMapUtils */;
+			targetProxy = C30C41419D2D7BB096D77CB947234B9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3516B7FA626DCB82F35E7A2BA65513CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAFB9CD250B016737B995E44284FF8E /* Pods-YohooAMapUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YohooAMapUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YohooAMapUtils_Tests/Pods-YohooAMapUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YohooAMapUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4520B3543BC33496EA9BA9FBD105DAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302F023D04D96FDA76E247D792BD16CA /* Pods-YohooAMapUtils_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YohooAMapUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YohooAMapUtils_Example/Pods-YohooAMapUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YohooAMapUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B50FDF62153480A81EC16D383984C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596D2E7DD8ADE237F4CE69EE0F486649 /* Pods-YohooAMapUtils_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YohooAMapUtils_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YohooAMapUtils_Example/Pods-YohooAMapUtils_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YohooAMapUtils_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67C6CA73A38FF171FF467061F1EE4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF689D2C6CD18B5AC1F5C992DD89FF36 /* YohooAMapUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMapFoundation",
+					"$(PROJECT_DIR)/AMapLocation",
+					"$(PROJECT_DIR)/AMapSearch",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YohooAMapUtils/YohooAMapUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YohooAMapUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YohooAMapUtils/YohooAMapUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YohooAMapUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C274E4639AA80616B84679DB2B71D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF689D2C6CD18B5AC1F5C992DD89FF36 /* YohooAMapUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMapFoundation",
+					"$(PROJECT_DIR)/AMapLocation",
+					"$(PROJECT_DIR)/AMapSearch",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YohooAMapUtils/YohooAMapUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YohooAMapUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YohooAMapUtils/YohooAMapUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YohooAMapUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC32ACFCEFD9A579655525F120A8CD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047D73C313CC75063858E586BF7BDBE7 /* Pods-YohooAMapUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YohooAMapUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YohooAMapUtils_Tests/Pods-YohooAMapUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YohooAMapUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5991DCE17164E3E0557230FA49FC4F0 /* Build configuration list for PBXNativeTarget "Pods-YohooAMapUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3516B7FA626DCB82F35E7A2BA65513CB /* Debug */,
+				DC32ACFCEFD9A579655525F120A8CD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB95FE492B2C0D2E6A0E05885DF9562 /* Build configuration list for PBXNativeTarget "Pods-YohooAMapUtils_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520B3543BC33496EA9BA9FBD105DAEF /* Debug */,
+				4B50FDF62153480A81EC16D383984C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0AC31D53CFE240D0E54E5D3650EB8B /* Build configuration list for PBXNativeTarget "YohooAMapUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C274E4639AA80616B84679DB2B71D99 /* Debug */,
+				67C6CA73A38FF171FF467061F1EE4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

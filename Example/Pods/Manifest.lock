@@ -1,0 +1,26 @@
+PODS:
+  - AMapFoundation (1.4.2)
+  - AMapLocation (2.4.0):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (5.3.0):
+    - AMapFoundation (~> 1.2)
+  - YohooAMapUtils (0.1.0):
+    - AMapLocation
+    - AMapSearch
+
+DEPENDENCIES:
+  - YohooAMapUtils (from `../`)
+
+EXTERNAL SOURCES:
+  YohooAMapUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AMapFoundation: 6c0471c9a6a0ad17dad46e3d800ad56ca170f82a
+  AMapLocation: 47b62b5381a66e4d0c2931b70ffde72682427896
+  AMapSearch: beb01c6b2e7be18fb4898e97162fedf144420c6f
+  YohooAMapUtils: 821a002efc5c96fdd580efd3281981434971feb2
+
+PODFILE CHECKSUM: f500594e9e27d7683f89005e0f02f0eb4b11e8c4
+
+COCOAPODS: 1.2.1

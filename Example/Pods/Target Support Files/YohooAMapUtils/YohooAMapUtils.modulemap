@@ -1,0 +1,6 @@
+framework module YohooAMapUtils {
+  umbrella header "YohooAMapUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
