@@ -9,8 +9,6 @@
 #import "YohooAMapViewController.h"
 #import <YohooAMapUtils/YohooAMapUtils.h>
 
-//@"100000|120000|060100"
-//0a0ba2a31dcce15743ab15ffbdfe0963
 @interface YohooAMapViewController () <YohooAMapUtilsDelegate> {
     YohooAMapUtils *mapUtils;
 }
@@ -23,7 +21,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    mapUtils = [[YohooAMapUtils alloc] initWithAppKey:@"0a0ba2a31dcce15743ab15ffbdfe0963" types:@"100000|120000|060100"];
+    mapUtils = [[YohooAMapUtils alloc] initWithAppKey:@"Your AMap App Key" types:@"100000|120000|060100"];
     mapUtils.delegate = self;
     
     [mapUtils startLocate];
